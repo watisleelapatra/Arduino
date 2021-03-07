@@ -1,5 +1,5 @@
-const int pingPin = 13;
-int inPin = 12;
+const int pingPin = 5;
+int inPin = 4;
 
 void setup() 
 {
