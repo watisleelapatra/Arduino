@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "mate9";  //<------ ใส่ชื่อ WiFi AccessPoint
-const char* password = "mate98765";  //<----- ใส่รหัสผ่าน
+const char* ssid = "";  //<------ ใส่ชื่อ WiFi AccessPoint
+const char* password = "";  //<----- ใส่รหัสผ่าน
 
 int ledPin1 = 5; // ขา D1, GPIO5
 int ledPin2 = 4; // ขา D2, GPIO4
