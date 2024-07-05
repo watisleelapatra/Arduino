@@ -44,8 +44,8 @@ void sendSensor()
   Serial.println(h);
   // You can send any value at any time.
   // Please don't send more that 10 values per second.
-  Blynk.virtualWrite(V0, h);
-  Blynk.virtualWrite(V1, t);
+  Blynk.virtualWrite(V0, t);
+  Blynk.virtualWrite(V1, h);
 }
 
 void setup()
